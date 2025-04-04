@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="Contact White Water Rafting">
+    <meta name="author" content="Silvia Castagnino">
+    <title>Contact us | White water rafting</title>
+    <link rel="stylesheet" href="styles/rafting.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="Rafting logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact us</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="titles">
+            <h1>Company information</h1>
+        </div>
+        <div>
+            <p><strong>Address:</strong> 123 waterfall, Whitewater, CO 81235, USA</p>
+            <p><strong>Phone:</strong> +1 (555) 789-0123</p>
+            <p><strong>Email:</strong> info@whitewaterrafting.com</p>
+        </div>
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d4205.905580564469!2d12.714693852595492!3d42.551369358613925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sit!2sit!4v1743789891910!5m2!1sit!2sit"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div>
+
+            <div class="employee-profiles">
+                <!-- Employee 1 -->
+                <div class="employee-card">
+                    <img src="https://images.unsplash.com/photo-1530268729831-4b0b9e170218?w=200" alt="Happy employee"
+                        class="employee-photo">
+                    <div class="employee-info">
+                        <figcaption>Sarah Johnson</figcaption>
+                        <p class="title">Rafting Guide</p>
+                        <p class="quote">"Making every trip down the river unforgettable!"</p>
+                    </div>
+                </div>
+
+                <!-- Employee 2 -->
+                <div class="employee-card">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200" alt="Happy employee"
+                        class="employee-photo">
+                    <div class="employee-info">
+                        <figcaption>Mike Rodriguez</figcaption>
+                        <p class="title">Safety Instructor</p>
+                        <p class="quote">"Your safety is our top priority on the water!"</p>
+                    </div>
+                </div>
+
+                <!-- Employee 3 -->
+                <div class="employee-card">
+                    <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200" alt="Happy employee"
+                        class="employee-photo">
+                    <div class="employee-info">
+                        <figcaption>Emily Chen</figcaption>
+                        <p class="title">Customer Relations</p>
+                        <p class="quote">"Helping you plan your perfect rafting adventure!"</p>
+                    </div>
+                </div>
+            </div>
+            <form>
+                <div class="fullname">
+                    <label for="fullname">Full name:</label>
+                    <input type="text" id="fullname" name="fullname">
+                </div>
+                <div class="email">
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail">
+                </div>
+                <div class="form-section">
+                    <p>Select the type of request:</p>
+                    <div class="radio-option">
+                        <input type="radio" id="general" name="purpose" value="General Inquiry" checked>
+                        <label for="general">General Inquiry</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="reservation" name="purpose" value="Reservation Question">
+                        <label for="reservation">Reservation Question</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="suggestion" name="purpose" value="Website Suggestion">
+                        <label for="suggestion">Website Suggestion</label>
+                    </div>
+                    <div class="radio-option">
+                        <input type="radio" id="rafting" name="purpose" value="Rafting Inquiry">
+                        <label for="rafting">Rafting Inquiry</label>
+                    </div>
+                </div>
+                <div class="message">
+                    <label for="message">Write your message:</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Write your message"></textarea>
+                </div>
+                <div class="newsletter">
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>©2025 ⚓ White Water Rafting ⚓ Silvia Castagnino</p>
+        <nav class="sociallinks">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook">
+            </a>
+            <a href="https://twitter.com">
+                <img src="images/twitter.svg" alt="Twitter">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="Instagram">
+            </a>
+
+        </nav>
+        <p class="wireframe-link"><a href="https://app.moqups.com/sBf36QnbjblYukBHkAQRKXjCJqUI2SJm/view/page/ad64222d5"
+                target="_blank">View Wireframe Design</a></p>
+    </footer>
+</body>
+
+</html>
