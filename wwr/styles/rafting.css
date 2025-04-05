@@ -249,7 +249,7 @@ main>div:nth-of-type(2) p {
 }
 
 /* Map Styles */
-.map {
+/*.map {
     margin: 3rem 0;
     text-align: center;
     position: relative;
@@ -279,7 +279,7 @@ main>div:nth-of-type(2) p {
     font-size: 1.5rem;
     margin-bottom: 1rem;
     letter-spacing: 2px;
-}
+}*/
 
 .employee-profiles {
     display: flex;
