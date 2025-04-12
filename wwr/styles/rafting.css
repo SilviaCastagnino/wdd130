@@ -622,7 +622,7 @@ button[type="submit"]:hover {
     font-size: 1rem;
 }
 
-.homepage-images {
+.home-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
@@ -681,7 +681,7 @@ button[type="submit"]:hover {
     transform: translateY(-5px);
 }
 
-.homepage-images figure {
+.home-grid figure {
     margin: 0;
     border-radius: 8px;
     overflow: hidden;
@@ -689,29 +689,29 @@ button[type="submit"]:hover {
     transition: transform 0.3s ease;
 }
 
-.homepage-images figure:hover {
+.home-grid figure:hover {
     transform: translateY(-5px);
 }
 
-.homepage-images img {
+.home-grid img {
     width: 100%;
     height: 250px;
     object-fit: cover;
     display: block;
 }
 
-.homepage-images figcaption {
+.home-grid figcaption {
     padding: 1.5rem;
     background-color: var(--secondary-color);
 }
 
-.homepage-images h3 {
+.home-grid h3 {
     color: var(--primary-color);
     margin-top: 0;
     font-size: 1.5rem;
 }
 
-.homepage-images p {
+.home-grid-images p {
     color: #333;
     line-height: 1.5;
 }
