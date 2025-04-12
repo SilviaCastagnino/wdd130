@@ -70,6 +70,27 @@ header nav a:hover {
     position: relative;
 }
 
+.hero article h2 {
+    text-align: center;
+    margin-top: -20px;
+    padding-top: 0;
+    color: var(--primary-color);
+    font-size: 2rem;
+    position: relative;
+}
+
+.hero article {
+    margin-top: -20px;
+    padding-top: 10px;
+}
+
+.hero article p {
+    text-align: center;
+    margin-top: -10px;
+    line-height: 1.8;
+    max-width: 900px;
+}
+
 .hero img {
     display: block;
     width: 100%;
